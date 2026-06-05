@@ -240,3 +240,57 @@ main {
   padding: 0;
   list-style: none;
 }
+
+@media (max-widht: 900px) {
+  .top-header, .experience {
+    grid-template-columns: 1fr;
+  }
+
+  .top-header {
+    align-items: start;
+  }
+
+  .record {
+    width: 100%;
+  }
+
+  .summary-card {
+    position: static;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  header {
+    padding-top: 20px;
+  }
+
+  .badge {
+    align-items: flex-start;
+  }
+
+  .logo {
+    width: 44px;
+    height: 44px;
+  }
+
+  .record {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .record div {
+    padding: 9px;
+  }
+
+  .timeline-wrap {
+    padding-top: 8px;
+  }
+
+  .timeline-wrap::before {
+    left: 28px;
+  }
+
+  .timeline {
+    gap: 10px;
+  }
+}
