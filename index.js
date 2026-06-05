@@ -108,7 +108,7 @@ const tournaments = [
     tag: "Segunda Fase",
     short: "1982",
     summary:
-      "Considerada por muitos como a melhor seleção brasileira na história das Copas, o time era recheado de craques no ague como Zico, Sócrates, Falcão e Júnior, além de jogar um futebol que encantou o mundo. Mas foi eliminada pela Itália de Paolo Rossi, que fez um hat-trick na vitória em cima do Brasil por 3-2.",
+      "Considerada por muitos como a melhor seleção brasileira na história das Copas, o time era recheado de craques no auge como Zico, Sócrates, Falcão e Júnior, além de jogar um futebol que encantou o mundo. Mas foi eliminada pela Itália de Paolo Rossi, que fez um hat-trick na vitória em cima do Brasil por 3-2.",
   },
   {
     year: "1986",
@@ -142,7 +142,7 @@ const tournaments = [
     result: "Brasil 0(3)-0(2) Itália",
     finish: "Campeão",
     tag: "Campeão",
-    short: "1982",
+    short: "1994",
     champion: true,
     summary:
       "O Brasil não era um dos favoritos e confirmou sua classificação apenas na última rodada das Eliminatórias. Mas comandado por Romário e Bebeto, a Seleção ganhou o tetracampeonato em cima da Itália com um pênalti perdido de Baggio.",
@@ -182,7 +182,7 @@ const tournaments = [
     tag: "Quartas de Final",
     short: "2006",
     summary:
-      "O quadrado mágico composto por Ronaldo, Ronaldinho, Kaká e Adriano não correspondeu e foi decepcionante. A Seleção não convenceu e foi eliminada pela França nas quarats de finais com uma atuação mágica de Zidane.",
+      "O quadrado mágico composto por Ronaldo, Ronaldinho, Kaká e Adriano não correspondeu e foi decepcionante. A Seleção não convenceu e foi eliminada pela França nas quartas de finais com uma atuação mágica de Zidane.",
   },
   {
     year: "2010",
@@ -206,7 +206,7 @@ const tournaments = [
     tag: "Semi Final",
     short: "2014",
     summary:
-      "Com Neymar como protagonista, a Seleção fez uma ótima primeira fase. Mas nas quartasde final, Neymar recebeu uma joelhada nas costas do lateral Zúñiga e foi cortado do restante da Copa. Na semifinal, em frente ao Mineirão lotado, a Seleção perdeu para a Alemanha de 7-1.",
+      "Com Neymar como protagonista, a Seleção fez uma ótima primeira fase. Mas nas quartas de final, Neymar recebeu uma joelhada nas costas do lateral Zúñiga e foi cortado do restante da Copa. Na semifinal, em frente ao Mineirão lotado, a Seleção perdeu para a Alemanha de 7-1.",
   },
   {
     year: "2018",
