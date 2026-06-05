@@ -2,7 +2,7 @@ const tournaments = [
   {
     year: "1950",
     host: "Brasil",
-    title: "1950: O Maracanaço",
+    title: "O Maracanaço",
     stage: "Fase Final",
     result: "Brasil 1-2 Uruguai",
     finish: "Vice-Campeão",
@@ -14,7 +14,7 @@ const tournaments = [
   {
     year: "1954",
     host: "Suiça",
-    title: "1954: A Batalha de Berna",
+    title: "A Batalha de Berna",
     stage: "Quartas de Final",
     result: "Brasil 2-4 Hungria",
     finish: "Quartas de Final",
@@ -26,7 +26,7 @@ const tournaments = [
   {
     year: "1958",
     host: "Suécia",
-    title: "1958: Pelé e Garrincha surgem e Brasil é Campeão",
+    title: "Pelé e Garrincha surgem e Brasil é Campeão",
     stage: "Final",
     result: "Brasil 5-2 Suécia",
     finish: "Campeão",
@@ -39,7 +39,7 @@ const tournaments = [
   {
     year: "1962",
     host: "Chile",
-    title: "1962: A Copa do Garrincha",
+    title: "A Copa do Garrincha",
     stage: "Final",
     result: "Brasil 3-1 Tchecoslováquia",
     finish: "Campeão",
@@ -52,7 +52,7 @@ const tournaments = [
   {
     year: "1966",
     host: "Inglaterra",
-    title: "1966: Brasil cai na Fase de Groupos",
+    title: "Brasil cai na Fase de Groupos",
     stage: "Fase de Grupos",
     result: "1 vitória e 2 derrotas",
     finish: "Fase de Grupos",
@@ -64,7 +64,7 @@ const tournaments = [
   {
     year: "1970",
     host: "México",
-    title: "1970: A melhor seleção da história conquista o tri",
+    title: "A melhor seleção da história conquista o tri",
     stage: "Final",
     result: "Brasil 4-1 Itália",
     finish: "Campeão",
@@ -77,7 +77,7 @@ const tournaments = [
   {
     year: "1974",
     host: "Alemanha",
-    title: "1974: Renovação após a era Pelé",
+    title: "Renovação após a era Pelé",
     stage: "Semi-Final",
     result: "Brasil 0-1 Polônia",
     finish: "Quarto lugar",
@@ -89,7 +89,7 @@ const tournaments = [
   {
     year: "1978",
     host: "Argentina",
-    title: "1978: Invicto mas não campeão",
+    title: "Invicto mas não campeão",
     stage: "Segunda Fase",
     result: "Brasil 2-1 Itália",
     finish: "Terceiro lugar",
@@ -101,7 +101,7 @@ const tournaments = [
   {
     year: "1982",
     host: "Espanha",
-    title: "1982: A Tragédia do Sarriá",
+    title: "A Tragédia do Sarriá",
     stage: "Segunda Fase",
     result: "Brasil 2-3 Itália",
     finish: "Segunda fase",
@@ -113,7 +113,7 @@ const tournaments = [
   {
     year: "1986",
     host: "México",
-    title: "1986: Drama no México",
+    title: "Drama no México",
     stage: "Quartas de Final",
     result: "Brasil 1(3)-1(4) França",
     finish: "Quartas de Final",
@@ -125,7 +125,7 @@ const tournaments = [
   {
     year: "1990",
     host: "Itália",
-    title: "1990: Brasil cai para a Argentina",
+    title: "Brasil cai para a Argentina",
     stage: "Oitavas de Final",
     result: "Brasil 0-1 Argentina",
     finish: "Oitavas de Final",
@@ -137,7 +137,7 @@ const tournaments = [
   {
     year: "1994",
     host: "Estados Unidos",
-    title: "1994: Romário encerra jejum de 24 anos",
+    title: "Romário encerra jejum de 24 anos",
     stage: "Final",
     result: "Brasil 0(3)-0(2) Itália",
     finish: "Campeão",
@@ -150,7 +150,7 @@ const tournaments = [
   {
     year: "1998",
     host: "França",
-    title: "1998: Brasil chega a Final mais uma vez, mas é Vice",
+    title: "Brasil chega a Final mais uma vez, mas é Vice",
     stage: "Final",
     result: "Brasil 0-3 França",
     finish: "Vice-Campeão",
@@ -162,7 +162,7 @@ const tournaments = [
   {
     year: "2002",
     host: "Japão e Coreia do Sul",
-    title: "2002: O Fenômeno se Redime",
+    title: "O Fenômeno se Redime",
     stage: "Final",
     result: "Brasil 2-0 Alemanha",
     finish: "Campeão",
@@ -175,7 +175,7 @@ const tournaments = [
   {
     year: "2006",
     host: "Alemanha",
-    title: "2006: O Quadrado Mágico não Brilha",
+    title: "O Quadrado Mágico não Brilha",
     stage: "Quartas de Final",
     result: "Brasil 0-1 França",
     finish: "Quartas de Final",
@@ -187,7 +187,7 @@ const tournaments = [
   {
     year: "2010",
     host: "África do Sul",
-    title: "2010: Brasil leva virada e é Eliminada",
+    title: "Brasil leva virada e é Eliminada",
     stage: "Quartas de Final",
     result: "Brasil 1-2 Holanda",
     finish: "Quartas de Final",
@@ -199,7 +199,7 @@ const tournaments = [
   {
     year: "2014",
     host: "Brasil",
-    title: "2014: O Maior Vexame das Copas",
+    title: "O Maior Vexame das Copas",
     stage: "Semi Final",
     result: "Brasil 1-7 Alemanha",
     finish: "Semi Final",
@@ -211,7 +211,7 @@ const tournaments = [
   {
     year: "2018",
     host: "Russía",
-    title: "2018: O Brasil cai para a Geração Belga",
+    title: "O Brasil cai para a Geração Belga",
     stage: "Quartas de Final",
     result: "Brasi 1-2 Bélgica",
     finish: "Quartas de Final",
@@ -223,7 +223,7 @@ const tournaments = [
   {
     year: "2022",
     host: "Catar",
-    title: "2022: O Brasil é surpreendido pela Croácia",
+    title: "O Brasil é surpreendido pela Croácia",
     stage: "Quartas de Final",
     result: "Brasil 1(2)-1(4) Croácia",
     finish: "Quartas de Final",
@@ -271,7 +271,7 @@ tournaments.forEach((item, index) => {
   button.className = "event-button"
   button.type = "button"
   button.innerHTML = `
-  <strong>${item.year} ${item.champion ? '<span class="stars">*</span>' : ""}</strong>
+  <strong>${item.year} ${item.champion ? "🏆" : ""}</strong>
   <span>${item.title}</span>
   `
   button.addEventListener("mouseenter", () => setActive(index))
