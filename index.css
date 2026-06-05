@@ -23,13 +23,7 @@ body {
   min-height: 100vh;
   font-family: "Inter", sans-serif;
   color: var(--ink);
-  background:
-    radial-gradient(
-      circle at 8% 12%,
-      rgba(245, 197, 66, 0.34),
-      transparent 26rem
-    ),
-    linear-gradient(135deg, #f8fbec 0%, #e9f4e2 45%, #f7f0d6 100%);
+  background: linear-gradient(90deg,rgba(144, 209, 240, 1) 0%, rgba(85, 201, 131, 1) 50%, rgba(237, 221, 100, 1) 100%);
 }
 
 .page {
@@ -109,4 +103,140 @@ h1 {
   font-size: 0.9rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* Main */
+main {
+  width: 100%;
+  padding: 18px clamp(18px, 4vw, 56px) 38px;
+}
+
+.experience {
+  display: grid; 
+  grid-template-columns: minmax(260px, 380px) 1fr;
+  gap: clamp(20px, 4vw, 42px);
+  max-width: 1240px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.summary-card {
+  position: sticky;
+  top: 24px;
+  min-height: 480px;
+  align-self: start;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--ink);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.card-art {
+  min-height: 172px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  color: var(--white);
+  background:  linear-gradient(150deg, rgba(4, 61, 44, 0.9), rgba(8, 122, 61, 0.42)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 520'%3E%3Crect width='900' height='520' fill='%23087a3d'/%3E%3Cpath d='M450 42 842 260 450 478 58 260Z' fill='%23f5c542'/%3E%3Ccircle cx='450' cy='260' r='116' fill='%23183a8f'/%3E%3Cpath d='M343 239c79-15 161-2 227 37' fill='none' stroke='%23fffdf4' stroke-width='22'/%3E%3Cpath d='M148 416c86-40 175-55 266-43 111 15 210-12 318-68' fill='none' stroke='%23ffffff' stroke-opacity='.18' stroke-width='26'/%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+}
+
+.pin-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.pin {
+  background: rgba(255, 255, 255, 0.9);
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  border-radius: 999px;
+  padding: 5px 10px;
+  color: var(--deep-green);
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.pin.gold {
+  background: var(--yellow);
+  color: var(--deep-green);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin: 0 0 6px;
+  color: var(--deep-green);
+  font-size: clamp(1.65rem, 2.4vw, 2.25rem);
+  line-height: 1.04;
+  letter-spacing: 0;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin: 0 0 18px;
+  color: var(--blue);
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+
+.card-content p {
+  margin: 0 0 18px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.result-line {
+  display: grid;
+  gap: 8px;
+}
+
+.result-line span {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+}
+
+.result-line strong {
+  color: var(--deep-green);
+  font-size: 1.05rem;
+}
+
+.timeline-wrap {
+  position: relative;
+  padding: 24px 0 8px;
+}
+
+.timeline-wrap::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  bottom: 18px;
+  width: 4px;
+  background: linear-gradient(var(--green), var(--yellow), var(--blue));
+  border-radius: 99px;
+  opacity: 0.46;
+  transform: translateX(-50%);
+}
+
+.timeline {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
