@@ -230,6 +230,56 @@ const tournaments = [
     tag: "Quartas de Final",
     short: "2022",
     summary:
-      "como uma das favoritas, a Seleção de Tite fez uma boa Copa. Nas quartas de final, era favorito contra a Croácia. Neymar fez um golaço na prorrogação mas a Croácia acertou um contra-ataque faltando 4 minutos para acabar o jogo. O jogo foi para os pênaltis onde o Brasil perdeu para a Croácia.",
+      "Como uma das favoritas, a Seleção de Tite fez uma boa Copa. Nas quartas de final, era favorito contra a Croácia. Neymar fez um golaço na prorrogação mas a Croácia acertou um contra-ataque faltando 4 minutos para acabar o jogo. O jogo foi para os pênaltis onde o Brasil perdeu para a Croácia.",
   },
 ]
+
+const timeline = document.querySelector("#timeline")
+const card = {
+  year: document.getElementById("#year"),
+  host: document.getElementById("#host"),
+  medal: document.getElementById("#medal"),
+  title: document.getElementById("#title"),
+  stage: document.getElementById("#stage"),
+  result: document.getElementById("#result"),
+  summary: document.getElementById("#summary"),
+  finish: document.getElementById("#finish"),
+}
+
+function setActive(index) {
+  const item = tournaments[index]
+  document.querySelectorAll(".event").forEach((event, eventIndex) => {
+    event.classList.toggle("active", eventIndex === index)
+  })
+
+  year.textContent = item.year
+  host.textContent = item.host
+  medal.textContent = item.tag
+  title.textContent = `${item.year}: ${item.title}`
+  stage.textContent = item.stage
+  result.textContent = item.result
+  summary.textContent = item.summary
+  medal.classList.toggle("gold", Boolean(item.champion))
+}
+
+tournaments.forEach((item, index) => {
+  const event = document.createElement("li")
+  event.className = `event${item.champion ? " champion" : ""}`
+  event.dataset.short = item.short
+
+  const button = document.createElement("button")
+  button.className = "event-button"
+  button.type = "button"
+  button.innerHTML = `
+  <strong>${item.year} ${item.champion ? '<span class="stars">*</span>' : ""}</strong>
+  <span>${item.title}</span>
+  `
+  button.addEventListener("mouseenter", () => setActive(index))
+  button.addEventListener("click", () => setActive(index))
+  button.addEventListener("focus", () => setActive(index))
+
+  event.appendChild(button)
+  timeline.append(event)
+})
+
+setActive(0)
